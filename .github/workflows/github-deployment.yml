@@ -21,7 +21,7 @@ jobs:
     environment: production   # requires approval if set in repo settings
     defaults:
       run:
-        working-directory: JENKINS-TEST-PIPLINE
+        working-directory: jenkins-test-pipline
     
     env:
       AWS_REGION: eu-west-2
