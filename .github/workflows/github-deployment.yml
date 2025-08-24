@@ -24,8 +24,8 @@ jobs:
         working-directory: AWS-DEPLOYMENT
     
     env:
-      AWS_DEFAULT_REGION: eu-west-2
-      
+      AWS_REGION: eu-west-2
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
