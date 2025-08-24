@@ -19,9 +19,6 @@ jobs:
     name: Terraform ${{ github.event.inputs.action }}
     runs-on: ubuntu-latest
     environment: production   # requires approval if set in repo settings
-    defaults:
-      run:
-        working-directory: jenkins-test-pipline
     
     env:
       AWS_REGION: eu-west-2
